@@ -1,10 +1,10 @@
-# 💬 Persian Sentiment Classification: Sentiment Explorer
+# Persian Sentiment Classification: Sentiment Explorer
 
 A comprehensive project aimed at building a sentiment classification pipeline for Persian-language product reviews using modern natural language processing techniques and traditional machine learning algorithms.
 
 ---
 
-## 🧾 Overview
+## Overview
 
 This project was designed to process and classify Persian comments based on sentiment orientation (recommendation vs. non-recommendation). The task involved several key stages:
 
@@ -18,7 +18,7 @@ This report documents the design rationale, development process, and insights ga
 
 ---
 
-## 📁 Dataset Description
+## Dataset Description
 
 Two datasets were provided:
 
@@ -29,7 +29,7 @@ The datasets had already undergone initial cleaning. There were no missing value
 
 ---
 
-## 🔄 Data Preprocessing
+## Data Preprocessing
 
 Preprocessing Persian-language text presents unique challenges:
 
@@ -47,7 +47,7 @@ All steps were encapsulated in a single preprocessing function that could be app
 
 ---
 
-## 🔡 Word Embedding with Word2Vec
+## Word Embedding with Word2Vec
 
 To represent words numerically, a custom **Word2Vec** model was trained on the preprocessed comments. Word2Vec enabled the project to capture semantic relationships between words by mapping them into a continuous vector space.
 
@@ -55,7 +55,7 @@ Each sentence was converted into a fixed-size vector by averaging its word vecto
 
 ---
 
-## 🧠 Sentiment Classification Model
+## Sentiment Classification Model
 
 ### Model Used:
 - **Logistic Regression** — a simple yet effective linear classifier for binary classification tasks.
@@ -70,7 +70,7 @@ Each sentence was converted into a fixed-size vector by averaging its word vecto
 
 ---
 
-## 🧪 Prediction Function
+## Prediction Function
 
 A general-purpose function was developed to classify new comments using the trained pipeline. It:
 
@@ -84,7 +84,7 @@ A general-purpose function was developed to classify new comments using the trai
 
 ---
 
-## 📤 Test Set Inference & Submission
+## Test Set Inference & Submission
 
 Predictions were made on the `test.csv` dataset. Each entry was classified and stored in a new DataFrame with the following structure:
 
@@ -108,7 +108,7 @@ This DataFrame was saved as a CSV and archived as `result.zip` for final evaluat
 
 ---
 
-## 🚀 Future Work
+## Future Work
 
 While the current pipeline performs reliably, the following enhancements could yield stronger results:
 
@@ -120,13 +120,13 @@ While the current pipeline performs reliably, the following enhancements could y
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 This project was developed as part of a structured machine learning assignment focused on natural language processing with a concentration in Persian text mining.
 
 ---
 
-## 📚 References
+## References
 
 - Gensim Word2Vec Documentation  
 - scikit-learn API Reference  
