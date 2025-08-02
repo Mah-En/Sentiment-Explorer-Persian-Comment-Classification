@@ -184,8 +184,3 @@ This project demonstrated the complete pipeline of sentiment analysis on Persian
 Developed and documented as part of a natural language processing project on Persian-language sentiment classification.
 
 ```
-
----
-
-Let me know if you'd like this in a downloadable `README.md` file or a rendered preview.
-```
