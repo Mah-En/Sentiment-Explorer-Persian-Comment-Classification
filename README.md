@@ -98,7 +98,7 @@ This DataFrame was saved as a CSV and archived as `result.zip` for final evaluat
 
 ---
 
-## 📈 Summary of Achievements
+## Summary of Achievements
 
 - ✅ Successfully cleaned and normalized Persian-language comments
 - ✅ Trained Word2Vec model to capture semantic similarity
